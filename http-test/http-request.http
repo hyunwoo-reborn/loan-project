@@ -1,0 +1,14 @@
+
+
+POST {{host}}/counsels
+Content-Type: application/json
+
+{
+  "name": "이름",
+  "cellPhone": "010*1111-2222",
+  "email": "email@djdjdj.com",
+  "memo": "메모 입력합니다!!!",
+  "address": "서울 어딘구 어딘동",
+  "addressDetail": "101동 101호",
+  "zipCode": "12244"
+}
