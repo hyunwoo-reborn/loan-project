@@ -13,8 +13,19 @@ Content-Type: application/json
   "zipCode": "12244"
 }
 
-
 ### 상담 조회
 GET {{host}}/counsels/1
 
+### 상담 수정
+PUT {{host}}/counsels/1
+Content-Type: application/json
 
+{
+  "name": "이름2",
+  "cellPhone": "010*1111-3333",
+  "email": "email1@djdjdj.com",
+  "memo": "메모 입력합니다!!!111",
+  "address": "서울 어딘구 어딘동2",
+  "addressDetail": "101동 101호2",
+  "zipCode": "1224a"
+}
