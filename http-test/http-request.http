@@ -29,3 +29,6 @@ Content-Type: application/json
   "addressDetail": "101동 101호2",
   "zipCode": "1224a"
 }
+
+### 상담 삭제
+DELETE {{host}}/counsels/1
